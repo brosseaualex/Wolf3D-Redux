@@ -679,7 +679,6 @@ void SetupGameLevel(void)
 
     ffDataBottomLeft = MAPSPOT(0, MXX, 0);
     MAPSPOT(0, MXX, 0) = MAPSPOT(0, MXX - 1, 0);
-
 #undef MXX
 #endif
 
